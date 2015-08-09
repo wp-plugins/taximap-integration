@@ -69,9 +69,9 @@ http://blog.taximap.co.uk/2015/08/wordpress-plugin/
 
 
 == Screenshots ==
-1. Initial TaxiMap screen where journey points are entered (1-taximap-integration-initial-screen.gif)
-2. Estimated prices shown (2-taximap-integration-show-price-screen)
-3. Booking screen (3-taximap-integration-booking-screen)
+1. Initial TaxiMap screen where journey points are entered (1-taximap-integration-initial-screen.png)
+2. Estimated prices shown (2-taximap-integration-show-price-screen.png)
+3. Booking screen (3-taximap-integration-booking-screen.png)
 
 
 
