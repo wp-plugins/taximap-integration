@@ -3,7 +3,7 @@
 Plugin Name: TaxiMap Integration
 Plugin URI: http://blog.taximap.co.uk/2015/08/wordpress-plugin/
 Description: Displays the TaxiMap taxi fare price calculator on your site via shortcode [taximap] or widget.
-Version: 1.0
+Version: 1.0.1
 Author: M Williams
 Author URI: http://nimbus.agency
 */
@@ -29,7 +29,7 @@ function tm_renderiFrame(){
 		$taximapId='10000';	//default to TaxiMap Demo Account
 		$tmIframe.='<div class="tm_alert">Warning: TaxiMap ID not set - Admin must add a TaxiMap ID. </div>';
 	}
-	$tmIframe.='<div class="taximap"><!-- Version 1508041748 -->';
+	$tmIframe.='<div class="taximap"><!-- Version 150830 -->';
 	$tmIframe.='<iframe src="//taximap.co.uk/plugin/taxi_map_frame.asp?wp=shortcodeWP&i1=1&f=1&uid='.$taximapId.'"></iframe>';
 	$tmIframe.='<!-- Powered by TaxiMap.co.uk -->';
 	$tmIframe.='</div>';
@@ -76,6 +76,8 @@ function taximap_integration_settings_page() {
 		
 	<?php submit_button(); ?>
 	</form>
+	
+<p>To display the plugin on a page/post, just add the following short-code where you want it to appear (for more info, see plug-in read-me file)<br /><b>[taximap]</b></p>
 </div>
 <?php }
 

@@ -2,7 +2,7 @@
 Contributors: nimbusdigital
 Tags: taxi,map,taximap,cab,minicab,mini-cab,fare,price,calculator,journey,travel,transport,uber,estimate,calculate,booking,system
 Requires at least: 3.0
-Tested up to: 4.2.3
+Tested up to: 4.3
 Stable tag: trunk
 License: GP2
 
@@ -21,7 +21,7 @@ TaxiMap is a highly configurable journey price calculator based on a price per m
 *	Wait & return pricing
 *	Posts to your own booking form (option)
 
-
+An active TaxiMap account: https://taximap.co.uk
 
 == Requirements ==
 An active TaxiMap account: https://taximap.co.uk
@@ -76,4 +76,5 @@ http://blog.taximap.co.uk/2015/08/wordpress-plugin/
 
 
 == Changelog ==
+1.0.1 Added shortcode instructions to settings interface
 1.0 Initial version.
